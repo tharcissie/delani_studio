@@ -1,3 +1,11 @@
 .jumbotron{
-    background-image: url(/image/);
+    background-image: url(../image/h_img.jpg); 
+    background-size: cover;
+    color: white;
+}
+.lead{
+    font-size: 12px;
+}
+.display-4{
+    font-size: 40px;
 }
