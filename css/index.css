@@ -14,3 +14,20 @@
     background-size: cover;
     color: white; 
 }
+.contact{
+    background-image: url(../image/c_image.jpg);
+    background-size: cover;
+    color: white; 
+}
+input{
+    width: 100%;
+    background-color: transparent;
+}
+::placeholder{
+    color: white;
+}
+textarea{
+    resize: none;
+    background-color: transparent;
+    color: white;
+}
