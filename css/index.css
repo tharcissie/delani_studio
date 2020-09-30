@@ -1,16 +1,8 @@
-*{
-    font-family: 'Peddana', serif;
-}
+
 .welcome{
     background-image: url(../image/h_img.jpg); 
     background-size: cover;
     color: white;
-}
-.lead{
-    font-size: 15px;
-}
-.display-4{
-    font-size: 40px;
 }
 .about{
     background-image: url(../image/s_image.jpg);
@@ -34,3 +26,56 @@ textarea{
     background-color: transparent;
     color: white;
 }
+h6{
+    font-weight: bold;
+}
+
+    .card .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    /* -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;  */
+  }
+  
+  .card:hover .content-overlay{
+    opacity: 1;
+  }
+
+  
+  .content-details {
+    position: absolute;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; */
+  }
+  
+  .card:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .border{
+      border: 1cm solid white;
+  }
+  
