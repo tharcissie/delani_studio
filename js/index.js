@@ -29,3 +29,14 @@ $('#icon3').click(function() {
     $("#icon3").hide();
 
 });
+
+
+$("form").submit(function(event) {
+    if ($("input").val() === "") {
+        alert('Enter valid data')
+        return;
+    }
+
+    alert('Your message have been recevied')
+    event.preventDefault();
+});
