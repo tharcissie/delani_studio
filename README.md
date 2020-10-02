@@ -23,7 +23,7 @@
  
  
  ## Link to live site on GitHub Pages
- https://tharcissie.github.io/akan/
+ https://tharcissie.github.io/delani_studio/
 
 
  ## Licence
