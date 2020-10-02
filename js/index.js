@@ -39,4 +39,5 @@ $("form").submit(function(event) {
 
     alert('Your message have been recevied')
     event.preventDefault();
+    this.reset();
 });
